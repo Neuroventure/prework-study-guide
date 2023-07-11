@@ -17,6 +17,15 @@
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <ul>
+          <li>&lt!DOCTYPE&gt is a declaration that tell the browser what document type to expect for example &lt!DOCTYPE HTML&gt
+          as the html document.
+          <li>&lthtml lang="en"&gt tells the browser the language for the webpage "en" for English.</li>
+          <li>The &lthead&gt element contains the metadata for our web application. Metadata is data about our webpage that the browser uses to effectively serve our webpage to users.</li>
+          <li>The &ltstyle&gt element defines the CSS styles associated with a website.</li>
+          <li>The &ltbase&gt element defines the base URL for a webpage.</li>
+          <li>The &ltlink&gt element connects an external resource to the HTML document.</li>
+          <li>The &ltmeta&gt element defines metadata such as the character set, description, keywords, author, and viewport.</li>
+          </li>
           <li>The head element contains infomation about the webpage.</li>
           <li>The body element represents the visible conbtent shown to the user.</li>
         </ul>
@@ -24,15 +33,35 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
       <ul>
-        <li>A margin indicatees how much space we want around the outside of an element.
-        </li>
-        <li>A padding indicates how much space we want around the content inside the element.
-        </li>
-      </ul>
+        <li>A margin indicates how much space we want around the outside of an element.</li>
+        <li>A padding indicates how much space we want around the content inside the element.</li>
+        <li>&lth1 style="color:red;"&gt is an example of changing the color of a single heading.</li>
+        <li>When using an external stylesheet we link the file using a &ltlink&gt element placed in the html's &lthead&gt for example &lthead&gt&ltlink rel="stylesheet" href="./assets/style.css" /&gt&lt/head&gt</li>
+        <li>Declarations contain two important components: the CSS property we want to apply and the value property. For Example, the declarion color:blue; includes the css property color and the value for that property,blue.</li>
+        <li>A margin property inicates how much space we want around the outside of an element.</li>
+        <li>A padding property adds space around the inside of an element. Inreasing the padding makes the whole element bigger.</li>
+        <li>Putting * applys a rule to all elements visible on the page. for example *{ margin: 0; padding: 0; } will set all the page elements to margin and padding of 0.</li>
+        <li>Do Not Repeat Yourself (DRY) is a coding principle that encourages developers to reuse or share pieces of code in order to reduce the number of lines of code that need to be written or maintained. DRY can greatly reduce the overall size and complexity of a codebase.</li>
+        <li>To combine two or more selectors in a single CSS rule use a comma "," for example h1 , h2 {text-align: center; }</li>
+        <li> CSS rules can also apply to images, use the "img" selector to apply styles for example img { display block; height: 50px; width: 50px; margin-left:auto; margin-right auto; } The 'img' selector assigns property values to any image element in the markup. The display property is assigned with the block value, which assigns each image to start on a new line.</li>
+        <li>To format lists use the 'ul' selector for example ul { padding-left:40px; font-size: 20 px; } This sets the font to be 20px abd the padding to be 40px.</li>
+        <li>The p selector selects all &ltp&gt elements. For example p { text-align: center; font-size: 30px; } will center all &ltp&gt text to be centered on the page witha font size of 30px.</li>
+        <li>To link your stylesheet to our webpage add the following code  after the final 'meta' element and before the 'title' element. &ltlink rel="stylesheet" href="./assets/style.css"&gt</li>
+        <li>In the preceding statement, a &ltlink&gt element creates the connection to the external file.</li>
+        <li>The rel attribute specifies the relationship between the current document and the linked document resource.</li>
+        <li>The href attribute specifies the location (URL) of the external resource. The href attribute is using a relative path. This means the location is derived from the current location (in this case, index.html). To locate the style sheet from the current location, we must look in the assets folder, hence assets/style.css.</li>
+        <li>At the bottom of your &ltp&gt element adding a class selector  for example a .card deisgnates any HTML element assigned to the class 'card' and will gain these property assignments from the CSS</li>
+        <li>As an example code of whats stated above .card { width: 80%; margin: 40px auto; border:5px solid gray; box-shadow: 5px 10px #888888; } </li>
       </section>
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
+          <li>Use |git add -A| command to flag all files for staging</li>
+          <li>Use the |git commit -m "decription of commit"| command to commit staged files to the repo.</li>
+          <li>|git pull origin main| command pulls the latest version of the project from GitHub to your local computer</li>
+          <li>Push the changes to the remote branch on GitHub by using the following command |git push origin "branch that you are committing to"</li>
+          <li>Give the pull request a unique descriptive title, in the body add instructions for the team about the changes made.</li>
+          <li>git checkout "branch name" switches to existing branch</li>
           <li>git status: checks what branch we are currently on</li>
           <li>git checkout -b branch name: creates a new branch and switches to it</li>
         </ul>
