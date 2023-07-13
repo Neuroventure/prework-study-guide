@@ -2,7 +2,7 @@
 
 ## Description
 
-My motivation for this project is to assist with the learning process of HTML, CSS, Git, and Javascript so that i may use it in a futurte career. I built this project to have a convienent and accessable place to access notes on the described topics. This project solves the problem of disorganization of notes by arranging all notes in one place. I learned the basics of HTML, Javascript, CSS and Git workflow for a future career. 
+My motivation for this project is to assist with the learning process of HTML, CSS, Git, and Javascript so that I may use it in a futurte career. I built this project to have a convienent and accessable place to access notes on the described topics. This project solves the problem of disorganization of notes by arranging all notes in one place. I learned the basics of HTML, Javascript, CSS and Git workflow for a future career. 
 
 
 ## Installation
